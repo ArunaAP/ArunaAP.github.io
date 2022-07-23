@@ -520,7 +520,7 @@ footer span a:hover{
 
 
 /* responsive media quary */
-@media (max-width: 947px){
+/* @media (max-width: 947px){
     .max-width{
         padding: 0 50px;
     }
@@ -548,4 +548,4 @@ footer span a:hover{
         margin: 20px 0;
         font-size: 25px;
     }
-}
+} */
