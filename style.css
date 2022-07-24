@@ -586,24 +586,43 @@ footer span a:hover{
 
 
 /* responsive media quary */
-@media (max-width: 947px){
-    .max-width{
-        padding: 0 50px;
+@media (max-width: 1300px){
+    .home .max-width{
+        margin-left: 0;
     }
+}
+
+@media (max-width: 1104px){
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+        
+    }
+}
+
+@media (max-width: 947px){
+    
     .menu-btn{
         display: block;
         z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
     }
     
     .navbar .menu{
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: 0;
+        left: -100%;
         top: 0;
         background: #111;
         text-align: center;
         padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
     }
     
     .navbar .menu li{
@@ -613,5 +632,89 @@ footer span a:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+
+    .home .home-content .text-2{
+        font-size: 55px;
+        
+    }
+    .home .home-content .text-3{
+        font-size: 20px;
+        
+    }
+
+    .images{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    
+    .images img{
+        height: 70%;
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    
+    .images:hover .shape{
+        bottom: 20px;
+    }
+    
+    .images:hover .my_photo{
+        left: 48%;
+    }
+    .max-width{
+        max-width: 800px;
+    }
+    .about .about-content .column{
+        width: 50%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+}
+
+@media (max-width: 690px){
+    .home .home-content .text-2{
+        font-size: 45px;
+        
+    }
+    .home .home-content .text-3{
+        font-size: 10px;
+        
+    }
+
+    .images{
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    
+    .images img{
+        height: 50%;
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    
+    .images:hover .shape{
+        bottom: 20px;
+    }
+    
+    .images:hover .my_photo{
+        left: 48%;
     }
 }

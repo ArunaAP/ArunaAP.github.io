@@ -11,6 +11,13 @@
             $(".scroll-up-btn").removeClass("show");
          }
      });
+
+    //  toggle menu script
+     $('.menu-btn').click(function(){
+        $('.navbar .menu').toggleClass("active");
+        $('.menu-btn i').toggleClass("active");
+     });
+
  });
 
  //slide up script
