@@ -586,11 +586,11 @@ footer span a:hover{
 
 
 /* responsive media quary */
-@media (max-width: 1300px){
+/* @media (max-width: 1300px){
     .home .max-width{
         margin-left: 0;
     }
-}
+} */
 
 @media (max-width: 1104px){
     .about .about-content .left img{
@@ -672,9 +672,9 @@ footer span a:hover{
     .images:hover .my_photo{
         left: 48%;
     }
-    .max-width{
+    /* .max-width{
         max-width: 800px;
-    }
+    } */
     .about .about-content .column{
         width: 50%;
     }
