@@ -708,14 +708,24 @@ footer span a:hover{
     }
     .service .max-width .service-content .column img{
         width: 200px;
+        margin-left: 70px;
+        
     }
     .service .max-width .service-content .column p{
         text-align: justify;
+        margin-left: 80px;
+        font-size: 10px;
     }
     .service .max-width .service-content .column .text{
         font-size: 20px;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 70px;
+    }
+
+    .max-width{
+        max-width: 1300px;
+        padding: 0 10px;
+        margin: auto;
     }
 
 }
