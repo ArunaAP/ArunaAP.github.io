@@ -672,6 +672,8 @@ footer span a:hover{
     .images:hover .my_photo{
         left: 48%;
     }
+
+
     /* .max-width{
         max-width: 800px;
     } */
@@ -686,6 +688,15 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
+
+    .home .max-width .home-content .images{
+        visibility: hidden;
+    }
+
+    .icons{
+        font-size: 10px;
+    }
+
 }
 
 @media (max-width: 690px){
