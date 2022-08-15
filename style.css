@@ -646,6 +646,9 @@ footer span a:hover{
         font-size: 20px;
         
     }
+    .home .home-content{
+        text-align: center;
+    }
 
     .images{
         width: 45%;
@@ -695,6 +698,24 @@ footer span a:hover{
 
     .icons{
         font-size: 10px;
+    }
+    .home .max-width{
+        margin: auto 0 auto ;
+    }
+
+    .service .max-width{
+        margin: auto 0 auto ;
+    }
+    .service .max-width .service-content .column img{
+        width: 200px;
+    }
+    .service .max-width .service-content .column p{
+        text-align: justify;
+    }
+    .service .max-width .service-content .column .text{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 50px;
     }
 
 }
